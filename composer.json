@@ -1,0 +1,6 @@
+{
+    "require": {
+        "nice/framework": "~1.0",
+        "nice/templating": "1.0.x-dev"
+    }
+}
