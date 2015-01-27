@@ -4,8 +4,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="shortcut icon" href="http://docs.niceframework.com/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="http://docs.niceframework.com/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="<?php echo $view['assets']->getUrl('favicon.ico') ?>" type="image/x-icon">
+    <link rel="icon" href="<?php echo $view['assets']->getUrl('favicon.ico') ?>" type="image/x-icon">
 
     <title><?php $view['slots']->output('title', 'Nice, a framework for PHP 5.4+') ?></title>
 
