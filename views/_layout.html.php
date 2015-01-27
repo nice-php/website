@@ -21,7 +21,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-3">
-                <h1>Nice PHP Framework</h1>
+                <h1><a href="http://niceframework.com">Nice PHP Framework</a></h1>
             </div>
         </div>
     </div>
