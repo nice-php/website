@@ -1,6 +1,9 @@
 {
-    "require": {
-        "nice/framework": "~1.0",
-        "nice/templating": "1.0.x-dev"
-    }
+  "name": "nice/website",
+  "description": "The official Nice framework website",
+  "license": "MIT",
+  "require": {
+    "nice/framework": "~1.0",
+    "nice/templating": "1.0.x-dev"
+  }
 }
