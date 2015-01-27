@@ -47,7 +47,9 @@
                     <?php $view['slots']->output('content') ?>
                 </div>
             </div>
-
+            <div class="col-md-2" id="github">
+                <a class="btn btn-fab btn-material-grey-200" target="_blank" href="https://github.com/nice-php/framework" data-placement="left" title="Open in GitHub"><i class="mdi-action-open-in-new"></i></a>
+            </div>
         </div>
     </div>
 </div>

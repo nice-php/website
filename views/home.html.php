@@ -1,7 +1,8 @@
 <?php $view->extend('_layout.html.php') ?>
 
 <?php $view['slots']->start('content') ?>
-<h1>Nice, a PHP microframework</h1>
+<h1>Nice</h1>
+<h4>A framework for PHP 5.4+</h4>
 <p>Nice is a simple microframework for PHP 5.4 and later. Nice integrates nikic's
     <a href="https://github.com/nikic/FastRoute">FastRoute</a> router with
     the <a href="https://github.com/symfony/HttpKernel">Symfony2 HttpKernel</a> and
@@ -37,4 +38,7 @@ can transfer nicely to a full-fledged Symfony 2 application with very little has
     <li>Secure your application with basic username/password authentication, or easily implement API authentication tokens.</li>
     <li>Write your own dependency injection extensions and compiler passes to harness the true, raw power of the Symfony DIC.</li>
 </ul>
+<hr>
+<h2>Check out the examples.</h2>
+<p>From toy websites to actually-useful-things, we've got a small showcase of Nice projects. <a href="<?php echo $view['router']->getPath('examples') ?>">Check them out</a>!</p>
 <?php $view['slots']->stop() ?>

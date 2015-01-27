@@ -9,6 +9,8 @@ $(document).ready(function() {
 		$(this).parents("li").removeClass("withripple");
 	});
 
+	$('#github a').tooltip();
+
 	// Bootstrap the tables
 	$(".documentation table").addClass("table table-striped table-bordered table-hover table-condensed");
 
