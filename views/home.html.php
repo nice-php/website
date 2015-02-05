@@ -26,30 +26,33 @@ $app-&gt;set('routes', function (RouteCollector $r) {
 });
 $app-&gt;run();</code></pre>
 <hr>
-<h2>Prototype quickly.</h2>
+<h2>Prototype quickly</h2>
 <p>
     Nice is designed to be easy to get up and running. Throw together a dynamic website in just a
 matter of minutes. Installation is as simple as:
 </p>
 <pre><code class="language-bash">composer require nice/framework:~1.0</code></pre>
-<h2>Leverage the HttpKernel.</h2>
-<p>
-    Nice is built on top of Symfony's HttpKernel. Combine Nice with HttpKernel middlewares to quickly and
-cleanly separate your application into logical layers.
-</p>
-<h2>Discard nothing.</h2>
+<hr>
+<h2>Discard nothing</h2>
 <p>
     Nice utilizes Symfony's Dependency Injection and Config components, providing powerful configuration
     options. Prototypes are no longer throwaway work, instead growing to become stable, maintainable applications.
 </p>
-<h3>Expand your application:</h3>
+<hr>
+<h2>Leverage the HttpKernel</h2>
+<p>
+    Nice is built on top of Symfony's HttpKernel. Combine Nice with <a href="http://stackphp.com">HttpKernel middlewares</a>
+    to quickly and cleanly separate your application into logical layers.
+</p>
+<hr>
+<h3>Expand your application</h3>
 <ul>
-    <li>Make use of pre-existing extensions that integrate Doctrine DBAL or ORM. Render your templates with Twig or Plates.</li>
+    <li>Make use of extensions that integrate Doctrine DBAL, Doctrine ORM, Twig, Monolog, and many more.</li>
     <li>Secure your application with basic username/password authentication, or easily implement API authentication tokens.</li>
     <li>Write your own dependency injection extensions and compiler passes to harness the power of the Symfony DIC.</li>
 </ul>
 <hr>
-<h2>Check out the examples.</h2>
+<h2>Check out the examples</h2>
 <p>
     From toy websites to actually-useful-things, we've got a small showcase of Nice projects. <a href="<?php echo $view['router']->getPath('examples') ?>">Check them out!</a>
 </p>
